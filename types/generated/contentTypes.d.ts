@@ -844,7 +844,7 @@ export interface ApiProductProduct extends Schema.CollectionType {
   };
   attributes: {
     title: Attribute.String;
-    desc: Attribute.Text;
+    description: Attribute.Text;
     img: Attribute.Media;
     img2: Attribute.Media;
     price: Attribute.Decimal;
